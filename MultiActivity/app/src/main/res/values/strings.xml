@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MultiActivity</string>
+    <string name="edit_message">Enter a Message!</string>
+    <string name="action_settings"> Settings </string>
+    <string name="Intent1btn">SEND 1</string>
+    <string name="Intent2btn">SEND 2</string>
+    <string name="title_activity_display_message"> DisplayMessageActivity </string>
+</resources>

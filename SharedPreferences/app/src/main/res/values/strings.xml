@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Shared Preferences</string>
+    <string name="textView1">Shared Preferences Demo App </string>
+    <string name="textView2">Select Machine Configuration </string>
+    <string name="textView3">RAM Size (GB): </string>
+    <string name="checkbox1">Graphics Coprocessor </string>
+    <string name="checkbox2">Extended Memory </string>
+    <string name="checkbox3">Touch Screen Input </string>
+    <string name="checkbox4"> High Speed Netwrok Adaptor </string>
+    <string name="editText1"> 2</string>
+    <string name="button1"> Save Values </string>
+    <string name="button2"> Exit App </string>
+</resources>
