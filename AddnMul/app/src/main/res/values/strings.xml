@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Add n Mul</string>
+    <string name="first">First Number</string>
+    <string name="second">Second Number</string>
+    <string name="mul"> Multiply </string>
+    <string name="add"> Addition </string>
+</resources>
