@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Fragments</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fragment1">Fragment View 1</string>
+    <string name="fragment2">Fragment View 2</string>
+    <string name="fragment3">Fragment View 3</string>
+    <string name="fragment4">Final Exam: K00364744</string>
+    <string name="title_activity_fragment_one">FragmentOne</string>
+    <string name="title_activity_fragment_two">FragmentTwo</string>
+    <string name="fragment_2">Fragment No. 2</string>
+    <string name="fragment_1">Fragment No. 1</string>
+    <string name="fragment_3">Fragment No. 3</string>
+    <string name="fragment_4">Final Exam</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

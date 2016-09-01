@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="k00364744.myapplication.MainActivity"
+    android:orientation="vertical"
+    android:background="#a4a4a4"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/volume_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="conversion"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#b90f0f"
+        android:textStyle="bold|italic"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/volume_input"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="@string/tftext"
+        android:background="#ffffff"
+        android:textColor="#060606"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/volume_unit_spinner1"
+        android:prompt="@string/prompt"
+        android:spinnerMode="dropdown"
+        android:background="#06886a"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/conversion_result"
+        android:id="@+id/volume_textView2"
+        android:layout_marginTop="40dp"
+        android:textColor="#ffffff"
+        android:background="#919191"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="fill_vertical|center_horizontal"
+        android:foregroundGravity="fill_horizontal|center_horizontal" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/volume_unit_spinner2"
+        android:tag="@string/Item_2"
+        android:spinnerMode="dropdown"
+        android:background="#06886a"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/volume_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:onClick="convertvolume"
+        android:background="#2a2a2a"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

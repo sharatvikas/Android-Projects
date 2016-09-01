@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">kavya</string>
+    <string name="tftext">Enter Value</string>
+    <string name="from">Conversion</string>
+    <string name="submit">Submit</string>
+    <string name="prompt">Result</string>
+    <string name="conversion_result">Conversion Result</string>
+    <string name="Item_2">Item 2 Sub Item 2</string>
+    <string-array name="volume_units">
+        <item>Milliliter</item>
+        <item>Liter</item>
+        <item>Kiloliter</item>
+        <item>Pint</item>
+        <item>Quart</item>
+        <item>Gallon</item>
+        <item>Cup</item>
+    </string-array>
+</resources>
